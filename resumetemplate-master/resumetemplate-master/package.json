@@ -1,7 +1,7 @@
 {
+  "homepage": "http://luisehdz.github.io/website",
   "name": "resume",
   "version": "0.1.0",
-  "homepage": "https://luisehdz.github.io",
   "private": true,
   "dependencies": {
     "react": "^16.4.0",
@@ -10,9 +10,9 @@
     "react-scripts": "^2.1.3"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
