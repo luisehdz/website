@@ -19,7 +19,7 @@ class App extends Component {
       <Header />
       <Routes>
           
-          <Route exact path='/' element={<About resumeData={resumeData}/>} />
+          <Route exact path='/' element={<Portfolio resumeData={resumeData}/>} />
           <Route exact path='/Resume' element={<Resume resumeData={resumeData}/>} />
           <Route path='/Portfolio' element={<Portfolio resumeData={resumeData}/>} />
           <Route path='/Contactus' element={<Contactus resumeData={resumeData}/>} />
