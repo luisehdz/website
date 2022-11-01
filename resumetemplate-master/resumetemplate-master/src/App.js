@@ -2,15 +2,18 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 import Header from './components/header/header';
-import About from './components/about/about';
 import Resume from './components/resume/resume';
-import APortfolio from './components/aportfolio/aportfolio';
-import UPortfolio from './components/uportfolio/uportfolio';
 import Portfolio from './components/portfolio/portfolio';
-import Testimonials from  './components/testimonials/testimonials';
 import Contactus from './components/contactus/contactus';
-import Footer from './components/footer/footer';
 import resumeData from './resumeData';
+/*
+import About from './components/about/about'; 
+import APortfolio from './components/aportfolio';
+import UPortfolio from './components/uportfolio/uportfolio';
+import Testimonials from  './components/testimonials/testimonials';
+import Footer from './components/footer/footer';
+*/
+
 class App extends Component {
   render() {
     return (
